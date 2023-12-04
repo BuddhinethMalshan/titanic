@@ -1,1 +1,43 @@
 
+.quote{
+    text-align: center;
+    color: #fc11bb;
+    font-weight: bold;
+    font-size: 21px;
+    padding-left: 10px; padding-right: 10px;        
+}
+
+.heading{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #febb22;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p1{     
+   text-align: justify;
+   color: white;
+   font-size: 20px;
+   padding-left: 4px; padding-right: 4px;
+}
+
+.main-svg {
+    background: rgba(0, 0, 0, 0.05) !important;
+    /* height: 400px; */
+    margin-bottom: 3;
+    margin-right: 3;
+    margin-left: 3;
+    /* Add any additional styles here */
+  }
+
+  .main-svg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.1); /* Black background with 10% opacity */
+    z-index: -1; /* Place it behind other elements */
+}
